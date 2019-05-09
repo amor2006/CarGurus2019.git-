@@ -13,7 +13,6 @@ import cucumber.api.junit.Cucumber;
 		        "json:target/cucumber.json" },
 		features = "src/test/resources/functionaltests", 
 		glue = { "stepDefinitions" },
-		tags = {"@CarGurusMenuBars"},
 		dryRun = false, monochrome =true
 		)
 
