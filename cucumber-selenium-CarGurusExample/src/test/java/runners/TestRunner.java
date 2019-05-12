@@ -11,8 +11,8 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"pretty",
 		        "html:target/site/cucumber-pretty",
 		        "json:target/cucumber.json" },
-		features = "src/test/resources/functionaltests", 
-		glue = { "stepDefinitions" }, tags = {"@CarGuru"},
+		features = "classpath:functionaltests", 
+		glue = { "stepDefinitions" }, tags = {"@FindJobCarGurus"},
 		dryRun = false, monochrome =true
 		)
 
