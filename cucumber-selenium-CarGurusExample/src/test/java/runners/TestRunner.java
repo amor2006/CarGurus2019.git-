@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		        "html:target/site/cucumber-pretty",
 		        "json:target/cucumber.json" },
 		features = "classpath:functionaltests", 
-		glue = { "stepDefinitions" }, tags = {"@FindJobCarGurus"},
+		glue = { "stepDefinitions" },
 		dryRun = false, monochrome =true
 		)
 //Runner class
